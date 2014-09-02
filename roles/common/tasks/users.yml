@@ -34,7 +34,7 @@
               validate='visudo -cf %s'
 
 - name: Create user "{{item.name}}" in "{{item.groups}}"
-  user: name={{item.name}} group={{item.group}} groups={{item.groups}} shell=/bin/zsh
+  user: name={{item.name}} groups={{item.groups}} shell=/bin/zsh
   with_items: users
 
 - name: Upload {{item.name}}'s public key
