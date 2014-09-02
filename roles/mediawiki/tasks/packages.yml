@@ -38,3 +38,6 @@
     - Update mediawiki
     - Mediawiki submodule fileMode false
     - Clear APC cache
+
+- name: Remove mediawiki from old location
+  command: rm -rf /usr/share/nginx/.orain.org/w removes=/usr/share/nginx/.orain.org/w
