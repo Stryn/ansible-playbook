@@ -5,7 +5,7 @@ root /mnt/mediawiki/uploads;
 expires 2w;
 
 location ~ ^/.*?/load.php$ {
-	root /srv/mediawiki;
+	root /srv/mediawiki/w;
 	expires 3d;
 	include fastcgi_params;
 	fastcgi_param SCRIPT_FILENAME $document_root/load.php;

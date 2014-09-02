@@ -1,2 +1,2 @@
 #!/bin/sh
-cd /srv/mediawiki
+cd /srv/mediawiki/w

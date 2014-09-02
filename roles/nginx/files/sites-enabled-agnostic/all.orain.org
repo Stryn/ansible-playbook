@@ -1,4 +1,4 @@
-root /srv/mediawiki;
+root /srv/mediawiki/w;
 index index.html index.htm index.php;
 
 location = / {

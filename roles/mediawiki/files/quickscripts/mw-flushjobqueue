@@ -1,2 +1,2 @@
 #!/bin/sh
-/home/www-scripts/db_loop.sh /srv/mediawiki/maintenance/runJobs.php
+/home/www-scripts/db_loop.sh /srv/mediawiki/w/maintenance/runJobs.php
